@@ -15,11 +15,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 read above and figure it out
 
-previous | current number | out
-0        | 0              | 1
-1        | 0              | 0
-0        | 1              | 0
-1        | 1              | 1
+| previous gate xnor current number | output xnor |
+|-----------------------------------|-------------|
+| 0 0                               | 1           |
+| 1 0                               | 0           |
+| 0 1                               | 0           |
+| 1 1                               | 1           |
+
+multiple outputs will produced varying displays
 
 ## External hardware
 
