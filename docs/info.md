@@ -9,11 +9,17 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+7 consecutive xnor gates linking with the previous one + number input
 
 ## How to test
 
-Explain how to use your project
+read above and figure it out
+
+previous | current number | out
+0        | 0              | 1
+1        | 0              | 0
+0        | 1              | 0
+1        | 1              | 1
 
 ## External hardware
 
